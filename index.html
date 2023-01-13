@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://ucertify.com/layout/themes/bootstrap4/ux/css/uc_global.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/main_sass/main.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/utils/?util=icomoon">
+    <link rel="stylesheet"
+        href="https://www.jigyaasa.info/layout/themes/bootstrap4/ux/css/css_overwrite.min.css?20221117" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class=" container my-3">
+        <div class="nav border-bottom ">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item"><a href="#" data-toggle="tab" class="nav-link  " aria-selected="false"><span
+                            class="icomoon-my-library-24px-1 mx-1"></span>My Library</a>
+                </li>
+                <li class="nav-item"><a href="#" data-toggle="tab" class="nav-link " aria-selected="false"><span
+                            class="icomoon-stack-plus mx-1"></span>Enroll</a>
+                </li>
+                <li class="nav-item"><a href="#" data-toggle="tab" class="nav-link" aria-selected=" false"><span
+                            class="icomoon-envelop-3 mx-1"></span>Inbox</a>
+                </li>
+                <li class="nav-item"><a href="#" data-toggle="tab" class="nav-link " aria-selected="false "><span
+                            class="icomoon-my-profile-24px-1 mx-1"></span>My Profile</a>
+                </li>
+                <li class="nav-item"><a href="#" data-toggle="tab "
+                        class="nav-link active  border-top-0 border border-primary border-left-0 border-right-0  "
+                        aria-selected="true"><span class="icomoon-admin-24px-1 mx-1"></span>Admin</a></li>
+            </ul>
+        </div>
+        <div class="top-btn my-3">
+            <button id="btnGroupDrop1" type="button"
+                class="btn btn-outline-light border-dark dropdown-toggle border-light py-2 px-3  "
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <spna class=" mr-lg-5 mr-md-3 mr-sm-2 mr-xs-1">uCertify</spna><span
+                    class="icomoon-cross-new-1 ml-lg-5 ml-md-5 ml-sm-5 ml-xs-5"></span>
+            </button>
+            <ul class="dropdown-menu " aria-labelledby="btnGroupDrop1 ">
+                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            </ul>
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown ">
+                <div class="btn-group" role="group">
+
+                    <button type="button" class="btn btn-outline-light border-primary active p-lg-2 p-md-2 p-sm-1  ">
+                        <span class="icomoon-roster-sm mx-1  "></span>
+                        Roster</button>
+                    <button id="btnGroupDrop1" type="button"
+                        class="btn btn-outline-light border-primary dropdown-toggle p-2 " data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="icomoon-24px-project-management mx-1"></span>Manage
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button"
+                        class="btn btn-outline-light border-primary dropdown-toggle p-2 " data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="icomoon-reports-sm mx-1"></span>Report
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button"
+                        class="btn btn-outline-light border-primary dropdown-toggle  p-2 " data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class=" icomoon-add-license-enroll-sm mx-1 "></span>Enroll
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="btn-group float-lg-right float-md-none float-sm-none mt-lg-0 " role="group">
+                <button id="btnGroupDrop1" type="button"
+                    class="btn btn-outline-primary dropdown-toggle p-2 mt-md-2 mt-sm-1 mt-lg-0"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class=" icomoon-file-download mx-1 "></span>Export
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+            </div>
+            <button type="button"
+                class="btn btn-outline-primary float-lg-right float-md-none float-sm-none p-2 mr-1 mt-md-2 mt-sm-2 mt-lg-0 ">LMS
+                configuration</button>
+        </div>
+        <div class="top-btn my-lg-3 my-md-2 my-sm-2">
+            <button type="button" class="btn btn-outline-light border-dark active mr-2 "> <span
+                    class="icomoon-search"></span> </button>
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown p-2">
+                <button type="button" class="btn btn-outline-light border-primary active   "><span
+                        class="icomoon-roster-sm mx-1 "></span>Rostar</button>
+                <button type="button" class="btn border-primary p-2"><span
+                        class=" icomoon-lesson-sm mx-1"></span>Lessons</button>
+                <button type="button" class="btn border-primary border-right-0 p-2"><span
+                        class="icomoon-testprep-or-practice-test mx-1 "></span>Practice</button>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button"
+                        class="btn btn-outline-light border-primary dropdown-toggle p-2" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="icomoon-cogs p-0 align-middle"></span>Prepengine
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button"
+                        class="btn btn-outline-light border-primary dropdown-toggle p-2" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="icomoon-bars mx-1"></span>Analytics
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="custom-control custom-switch float-lg-right float-sm-none float-md-none my-lg-2 mt-lg-0 mt-md-3 mt-sm-3 pl-0">
+                <label for="" class=" mr-5">Test Mode only</label>
+                <input type="checkbox" class="custom-control-input" id="customSwitches">
+                <label class="custom-control-label" for="customSwitches"></label>
+            </div>
+        </div>
+
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col ">
+                        <div class="btn-group height20 width20 ml-4 float-right" role="group">
+                            <button id="btnGroupDrop1" type="button"
+                                class="btn btn-outline-primary dropdown-toggle pl-0 pt-0 pr-1 bg-white  "
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input height20 width20 " />
+                        </div>
+                    </th>
+                    <th scope="col" class="roster_header_width font-weight-normal ">
+                        <div class="d-flex flex-column">
+                            <nobr>Student Name</nobr>
+                            <nobr>
+                                <small>
+                                    Tag/Status
+                                </small>
+                                <span class="header"></span>
+                            </nobr>
+
+                        </div>
+                    </th>
+
+                    <th class="roster_header_width font-weight-normal pb-4">
+                        <div class="d-flex flex-column">
+                            <nobr>Course Name </nobr>
+                            <nobr>
+                                <small>
+                                    CRN/Course Status
+                                </small>
+                                <span class="header"></span>
+                            </nobr>
+
+                        </div>
+                    </th>
+                    <th scope="col" class="roster_header_width font-weight-normal pb-4">
+                        <div class="d-flex flex-column">
+                            <nobr>Instructor </nobr>
+                            <nobr>
+                                <small>
+                                    Section
+                                </small>
+                                <span class="header"></span>
+                            </nobr>
+
+                        </div>
+                    </th>
+                    <th scope="col" class="roster_header_width font-weight-normal ">
+                        <div class="d-flex flex-column">
+                            <nobr>Readiness </nobr>
+                            <nobr>
+                                <span class="header"></span>
+                            </nobr>
+
+                        </div>
+                    </th>
+                    <th scope="col" class="roster_header_width font-weight-normal ">
+                        <div class="d-flex flex-column">
+                            <nobr>Start </nobr>
+                            <nobr>
+                                <small>
+                                    Time Passed
+                                </small>
+
+                            </nobr>
+                            <nobr class="header"></nobr>
+
+                        </div>
+                    </th>
+                    <th scope="col" class="roster_header_width font-weight-normal ">
+                        <div class="d-flex flex-column">
+                            <nobr>Target </nobr>
+                            <nobr>
+                                <small>
+                                    Time Needed
+                                </small>
+
+                            </nobr>
+                            <nobr class="header"></nobr>
+
+                        </div>
+                    </th>
+                    <th scope="col" class="roster_header_width font-weight-normal ">
+                        <div class="d-flex flex-column">
+                            <nobr>Estimated </nobr>
+                            <nobr>
+                                <small>
+                                    Time Required
+                                </small>
+                                <span class="dropdown-toggle"></span>
+                            </nobr>
+
+                        </div>
+                    </th>
+                    <th scope="col" class="roster_header_width font-weight-normal ">
+                        <div class="d-flex flex-column">
+                            <nobr>Last Login </nobr>
+                            <nobr>
+                                <small>
+                                    Time Passed
+                                </small>
+
+                            </nobr>
+                            <nobr class="header"></nobr>
+
+                        </div>
+                    </th>
+                    <th scope="col"> Actions</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-muted disabled1">
+                    <td scope="row" class="pt-4">
+                        <div>
+                            <input type="checkbox" class="form-check-input height20 width20" />
+                            <span class="ml-4">1</span>
+                        </div>
+                    </td>
+                    <td class="span3 border-left-0 border-right-0 user_position ">
+                        <div class="d-flex">
+                            <div>
+                                <div
+                                    class="user_pic  height46 width46 border img-circle rounded-circle img-thumbnail  position-relative text-center ">
+                                    <span class="  userpic_title d-block pb-5 opacity-25 "><img src="image.png" alt=""
+                                            class="rounded-circle">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="width140 pl-md mt-2 my-auto">
+                                Abhishek kumar
+                            </div>
+                        </div>
+                    </td>
+                    <td>App-Training <div>app-training</div>
+                        <div class="d-flex p-1 text-success">
+                            <span
+                                class="d-xl-inline-block  nav_text  icomoon-project-management-44px icomoon-24px-settings"></span>
+                            <span
+                                class="d-xl-inline-block  nav_text icomoon-reports-sm icomoon-testprep-or-practice-test ml-1"></span>
+                        </div>
+                    </td>
+                    <td>
+                        <div>Swati Kesarwani</div> <button class="btn btn-primary p-0 font10">Merged</button>
+                    </td>
+                    <td>
+                        <article class="pl-3 pt-3 d-flex flex-column">
+                            <svg height="23" width="23" viewBox="0 0 20 20">
+                                <circle r="10" cx="10" cy="10" fill="#e9ebe5"></circle>
+                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10"
+                                    stroke-dasharray="17.9 38.4" transform="rotate(-90) translate(-20)"></circle>
+                            </svg>
+                            <p class="text-success">58%</p>
+                        </article>
+                    </td>
+                    <td>
+                        <div>24-APR-19</div> <small>2.1 years</small>
+                    </td>
+                    <td>
+                        <div>25-june-19</div> <small>NA</small>
+                    </td>
+                    <td>
+                        <div>12-JAN-23</div> <small>1.6 years</small>
+                    </td>
+                    <td>
+                        <div class="text-danger">21-FEB-19</div> <small>2.3 years ago</small>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                            <button type="button" id="dropdownMenu1" class="btn btn-light dropdown-toggle"
+                                data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                <span class="icomoon-new-24px-gear-1 setting_icon"></span>
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Edit</a></li>
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Add Comment</a>
+                                </li>
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Add About</a></li>
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Unsubscribe to
+                                        newsletter</a></li>
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Send Follow up
+                                        email</a></li>
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Delete</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td scope="row" class=" pt-4">
+                        <div>
+                            <input type="checkbox" class="form-check-input height20 width20 " /><span
+                                class="ml-4">2</span>
+
+                        </div>
+                    </td>
+                    <td class="span3 border-left-0 border-right-0 user_position sort-from-attr">
+                        <div class="d-flex">
+                            <div>
+                                <div
+                                    class="user_pic p-1 height46 width46 border img-circle rounded-circle img-thumbnail userimagecolor_1 position-relative text-center ">
+                                    <span class="text-white font-weight-bold userpic_title d-block pt mt-sm ">AP</span>
+                                </div>
+                            </div>
+                            <div class="width140 pl-md mt-2 my-auto">
+                                Abhishek Pandey
+                            </div>
+                        </div>
+
+                    </td>
+                    <td>App-Training <div>app-training</div>
+                        <div class="d-flex p-1 text-success">
+                            <span
+                                class="d-xl-inline-block  nav_text icomoon-project-management-44px icomoon-24px-settings"></span>
+                            <span
+                                class="d-xl-inline-block  nav_text icomoon-reports-sm icomoon-testprep-or-practice-test ml-1"></span>
+                        </div>
+                    </td>
+                    <td>
+                        <div>Swati Kesarwani </div><button class="btn btn-primary p-0 font10">Merged
+                            Shambhunath</button>
+                    </td>
+                    <td class="text-primary">
+                        <article class="pl-3 pt-3 d-flex flex-column">
+                            <svg height="23" width="23" viewBox="0 0 20 20">
+                                <circle r="10" cx="10" cy="10" fill="#e9ebe5"></circle>
+                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10"
+                                    stroke-dasharray="19 38.4" transform="rotate(-90) translate(-20)"></circle>
+                            </svg>
+                            <p class="text-success">64%</p>
+                        </article>
+                    </td>
+                    <td>
+                        <div>18-FEB-17</div> <small>4.3 years</small>
+                    </td>
+                    <td>
+                        <div>18-JUN-17</div> <small>NA</small>
+                    </td>
+                    <td>
+                        <div>3-DEC-23</div> <small>2.5 years</small>
+                    </td>
+                    <td>
+                        <div class="text-danger">14-MAY-17</div> <small>4.1 years ago</small>
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                            <button type="button" id="dropdownMenu1" class="btn btn-light dropdown-toggle"
+                                data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                <span class="icomoon-new-24px-gear-1 setting_icon"></span>
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Edit</a></li>
+                                <li class="ui-draggable"><a class="dropdown-item" href="javascript:;">Add Comment</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+</body>
+
+</html>
